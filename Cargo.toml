@@ -1,0 +1,14 @@
+[package]
+name = "unitime"
+version = "0.0.1"
+edition = "2021"
+authors = ["Orphoros <orpy@orphoros.dev>"]
+description = "Universal time functions"
+license = "GPL-3.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.87"
+web-time = "0.2.0"
